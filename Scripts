@@ -1,0 +1,12 @@
+CREATE DATABASES AND SCHEMAS
+
+---pre check if this table already exists
+drop warehouse if exists;
+---database
+use datawarehouse:
+--schemas
+create schema bronze;
+
+create schema silver;
+
+create schema gold;
